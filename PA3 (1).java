@@ -2,11 +2,13 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class PA3 {
-    private static Scanner scan = new Scanner(System.in);
-    private static Stack<Double> stack = new Stack<>();
 
     public static void main(String[] args)
     {
+        
+        Scanner scan = new Scanner(System.in);
+        Stack<Double> stack = new Stack<>();
+        
         while(true)
         {
             System.out.println("Enter an RPN expression or <CR> to exit");
