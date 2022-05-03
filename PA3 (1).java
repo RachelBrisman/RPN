@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class PA3 {
+public class RPNCalc {
 
     public static void main(String[] args)
     {
